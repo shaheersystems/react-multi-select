@@ -9,9 +9,12 @@ function Banner() {
       <p className='font-semibold'>
         Elegant, customizable and dynamic multi-select component
       </p>
-      <button className='px-4 py-2 bg-slate-900 text-white rounded hover:bg-slate-700'>
+      <a
+        href='https://github.com/shaheersystems/react-multi-select'
+        className='px-4 py-2 bg-slate-900 text-white rounded hover:bg-slate-700'
+      >
         Repository Link
-      </button>
+      </a>
     </div>
   );
 }
